@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zookeeper-prometheus-metrics" />
+        <module name="zookeeper-recipes-election" />
+        <module name="zookeeper-jute" />
+        <module name="zookeeper-compatibility-tests-curator" />
+        <module name="zookeeper-recipes-queue" />
+        <module name="zookeeper" />
+        <module name="zookeeper-recipes-lock" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="parent" target="1.8" />
+      <module name="zookeeper" target="1.8" />
+      <module name="zookeeper-assembly" target="1.8" />
+      <module name="zookeeper-client" target="1.8" />
+      <module name="zookeeper-compatibility-tests" target="1.8" />
+      <module name="zookeeper-compatibility-tests-curator" target="1.8" />
+      <module name="zookeeper-docs" target="1.8" />
+      <module name="zookeeper-jute" target="1.8" />
+      <module name="zookeeper-metrics-providers" target="1.8" />
+      <module name="zookeeper-prometheus-metrics" target="1.8" />
+      <module name="zookeeper-recipes" target="1.8" />
+      <module name="zookeeper-recipes-election" target="1.8" />
+      <module name="zookeeper-recipes-lock" target="1.8" />
+      <module name="zookeeper-recipes-queue" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zookeeper" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-compatibility-tests-curator" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-jute" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-prometheus-metrics" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-recipes-election" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-recipes-lock" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-recipes-queue" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+    </option>
+  </component>
+</project>

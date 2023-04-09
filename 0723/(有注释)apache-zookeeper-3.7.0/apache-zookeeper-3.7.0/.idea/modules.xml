@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-server/zookeeper.iml" filepath="$PROJECT_DIR$/zookeeper-server/zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-assembly/zookeeper-assembly.iml" filepath="$PROJECT_DIR$/zookeeper-assembly/zookeeper-assembly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-client/zookeeper-client.iml" filepath="$PROJECT_DIR$/zookeeper-client/zookeeper-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-compatibility-tests/zookeeper-compatibility-tests.iml" filepath="$PROJECT_DIR$/zookeeper-compatibility-tests/zookeeper-compatibility-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-compatibility-tests/zookeeper-compatibility-tests-curator/zookeeper-compatibility-tests-curator.iml" filepath="$PROJECT_DIR$/zookeeper-compatibility-tests/zookeeper-compatibility-tests-curator/zookeeper-compatibility-tests-curator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-docs/zookeeper-docs.iml" filepath="$PROJECT_DIR$/zookeeper-docs/zookeeper-docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-jute/zookeeper-jute.iml" filepath="$PROJECT_DIR$/zookeeper-jute/zookeeper-jute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-metrics-providers/zookeeper-metrics-providers.iml" filepath="$PROJECT_DIR$/zookeeper-metrics-providers/zookeeper-metrics-providers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-metrics-providers/zookeeper-prometheus-metrics/zookeeper-prometheus-metrics.iml" filepath="$PROJECT_DIR$/zookeeper-metrics-providers/zookeeper-prometheus-metrics/zookeeper-prometheus-metrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-recipes/zookeeper-recipes.iml" filepath="$PROJECT_DIR$/zookeeper-recipes/zookeeper-recipes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-recipes/zookeeper-recipes-election/zookeeper-recipes-election.iml" filepath="$PROJECT_DIR$/zookeeper-recipes/zookeeper-recipes-election/zookeeper-recipes-election.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-recipes/zookeeper-recipes-lock/zookeeper-recipes-lock.iml" filepath="$PROJECT_DIR$/zookeeper-recipes/zookeeper-recipes-lock/zookeeper-recipes-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-recipes/zookeeper-recipes-queue/zookeeper-recipes-queue.iml" filepath="$PROJECT_DIR$/zookeeper-recipes/zookeeper-recipes-queue/zookeeper-recipes-queue.iml" />
+    </modules>
+  </component>
+</project>
